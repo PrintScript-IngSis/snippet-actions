@@ -5,7 +5,7 @@ on:
     secrets:
       USERNAME:
         required: true
-      USER_TOKEN:
+      TOKEN:
         required: true
 
 jobs:
