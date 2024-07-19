@@ -9,8 +9,8 @@ on:
         required: true
 
 env:
-  USERNAME: ${{ secrets.PUBLISH_USER }}
-  TOKEN: ${{ secrets.PUBLISH_TOKEN }}
+  USERNAME: ${{ secrets.USERNAME }}
+  TOKEN: ${{ secrets.TOKEN }}
 
 jobs:
   build:
